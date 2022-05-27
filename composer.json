@@ -1,0 +1,21 @@
+{
+    "name": "lufeijun1234/second",
+    "description": "this is second package",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "lufeijun1234",
+            "email": "lufeijun_1234@126.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">= 7.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "Lufeijun1234\\": "src/"
+        }
+    }
+}
